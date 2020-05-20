@@ -25,6 +25,7 @@ def assign_rooms(speaker_list)
 end
   
 
+<<<<<<< HEAD
 def printer(attendees)
   batch_badge_creator(attendees).map do |attendee|
     puts attendee
@@ -32,4 +33,9 @@ def printer(attendees)
   assign_rooms(attendees).map do |attendee|
     puts attendee
   end
+=======
+def printer()
+    puts batch_badge_creator
+    puts assign_rooms
+>>>>>>> 235f57713239fafca1f244bacb3fd33091349749
 end
